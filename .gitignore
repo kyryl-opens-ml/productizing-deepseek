@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+notes.md
+vllm
+modal_deploy.py
