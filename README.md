@@ -193,6 +193,7 @@ uv run modal deploy src/productizing_deepseek/custom_vllm_r1.py
 4. clients
 
 ```bash
+uv run python ./src/productizing_deepseek/clients.py modal 'test' "DeepSeek-R1-Distill-Qwen-1.5B" "https://truskovskiyk-productizing-deepseek--distill-llama-1b-serve.modal.run/v1"
 uv run python ./src/productizing_deepseek/clients.py modal 'test' "DeepSeek-R1-Distill-Llama-8B" "https://truskovskiyk-productizing-deepseek--distill-llama-8b-serve.modal.run/v1/"
 uv run python ./src/productizing_deepseek/clients.py modal 'test' "DeepSeek-R1-Distill-Qwen-32B" "https://truskovskiyk-productizing-deepseek--distill-qwen-32b-serve.modal.run/v1/"
 uv run python ./src/productizing_deepseek/clients.py modal 'test' "DeepSeek-R1-Distill-Llama-70B" "https://truskovskiyk-productizing-deepseek--distill-llama-70b-serve.modal.run/v1/"
@@ -213,6 +214,7 @@ modal app stop --name distill-llama-8b
 
 | Model               | GPU Type              | Number of GPUs | Price per GPU (per hour) | Total Cost (per hour) | GPU meme req | Start time |
 |---------------------|-----------------------|----------------|--------------------------|-----------------------|--------------|------------|
+| distill-llama-1.5b    | Nvidia A10 (24 GB)   | 1              | $1.10                    | $1.10                | 19GB         | $1.10     |
 | distill-llama-8b    | Nvidia A100 (40 GB)   | 1              | $2.78                    | $2.78                | 35GB         | 51.84s     |
 | distill-llama-70b   | Nvidia A100 (80 GB)   | 2              | $3.40                    | $6.80                | 71GB         | 1m12s      |
 | distill-qwen-32b    | Nvidia A100 (80 GB)   | 1              | $3.40                    | $3.40                | 143GB        | 2m16s      |
