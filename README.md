@@ -214,7 +214,7 @@ modal app stop --name distill-llama-8b
 
 | Model               | GPU Type              | Number of GPUs | Price per GPU (per hour) | Total Cost (per hour) | GPU meme req | Start time |
 |---------------------|-----------------------|----------------|--------------------------|-----------------------|--------------|------------|
-| distill-llama-1.5b    | Nvidia A10 (24 GB)   | 1              | $1.10                    | $1.10                | 19GB         | $1.10     |
+| distill-llama-1.5b    | Nvidia A10 (24 GB)   | 1              | $1.10                    | $1.10                | 19GB         | 1.10     |
 | distill-llama-8b    | Nvidia A100 (40 GB)   | 1              | $2.78                    | $2.78                | 35GB         | 51.84s     |
 | distill-llama-70b   | Nvidia A100 (80 GB)   | 2              | $3.40                    | $6.80                | 71GB         | 1m12s      |
 | distill-qwen-32b    | Nvidia A100 (80 GB)   | 1              | $3.40                    | $3.40                | 143GB        | 2m16s      |
